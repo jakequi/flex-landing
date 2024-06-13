@@ -1,0 +1,104 @@
+body {
+    font-family: 'Hero New', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+
+.header ul {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    gap: 28px;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    height: 5%;
+    color: #F9FAF8;
+    padding: 0 128px 0 128px;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.header-links {
+    display: flex;
+}
+
+.subtext-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-top: 128px;
+    padding-left: 128px;
+    padding-right: 128px;
+    padding-bottom: 128px;
+    gap: 16px;
+}
+
+.subtext-container h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.subtext-container button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px;
+    border-radius: 15%;
+    font-weight: 700;
+    width: 100px;
+}
+
+.random-container {
+    color: #1F2937;
+}
+
+.quote-container {
+    display: flex;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.action-container {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.smaller-images {
+    display: flex;
+}
+
+.image-card img{
+    outline: solid;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.main-image-text {
+    min-height: 250px;
+    min-width: 400px;
+    flex: 1;
+}
+
+.placeholder-image {
+    height: 300px;
+    width: 500px;
+}

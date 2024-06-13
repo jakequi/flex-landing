@@ -9,12 +9,10 @@ a {
     color: #F9FAF8;
 }
 
-
-.header ul {
-    list-style: none;
-    display: flex;
-    font-size: 18px;
-    gap: 28px;
+h2 {
+    text-align: center;
+    padding-left: 256px;
+    padding-right: 256px;
 }
 
 .header, .footer {
@@ -26,8 +24,18 @@ a {
     padding: 0 128px 0 128px;
 }
 
-.footer {
-    margin-top: auto;
+.header ul {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    gap: 28px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .header-links {
@@ -61,37 +69,6 @@ a {
     width: 100px;
 }
 
-.random-container {
-    color: #1F2937;
-}
-
-.quote-container {
-    display: flex;
-    background-color: #E5E7EB;
-    color: #1F2937;
-}
-
-.action-container {
-    display: flex;
-    background-color: #3882F6;
-    color: #F9FAF8;
-}
-
-.smaller-images {
-    display: flex;
-}
-
-.image-card img{
-    outline: solid;
-}
-
-.header-logo {
-    display: flex;
-    align-items: center;
-    font-size: 24px;
-    font-weight: bolder;
-}
-
 .main-image-text {
     min-height: 250px;
     min-width: 400px;
@@ -101,4 +78,70 @@ a {
 .placeholder-image {
     height: 300px;
     width: 500px;
+}
+
+.random-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 16px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.image-card p {
+    max-width: 128px;
+    flex: 1;
+}
+
+.image-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-card img {
+    height: 192px;
+    width: 192px;
+    outline: solid;
+    outline-color:#3882F6;
+    border-radius: 15%;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.quote-itself {
+   font-size: 32px;
+   font-style: italic;
+   font-weight: 300;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+    align-self: flex-end;
+}
+
+.action-container {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.footer {
+    margin-top: auto;
 }

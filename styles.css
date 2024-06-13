@@ -10,9 +10,12 @@ a {
 }
 
 h2 {
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding-left: 256px;
     padding-right: 256px;
+    min-width: 50%
 }
 
 .header, .footer {
@@ -64,7 +67,7 @@ h2 {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 8px;
-    border-radius: 15%;
+    border-radius: 25px;
     font-weight: 700;
     width: 100px;
 }
@@ -90,6 +93,7 @@ h2 {
     padding-top: 16px;
     padding-left: 15%;
     padding-right: 15%;
+    min-width: 50%
 }
 
 .image-card p {
@@ -109,7 +113,7 @@ h2 {
     width: 192px;
     outline: solid;
     outline-color:#3882F6;
-    border-radius: 15%;
+    border-radius: 25px;
 }
 
 .quote-container {
@@ -138,10 +142,46 @@ h2 {
 
 .action-container {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 10px;
+    margin: 92px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 32px;
+    padding-right: 32px;
+    gap: 32px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-call {
+    font-weight: 500;
+    margin: 0;
+}
+
+.action-subtext {
+    margin: 0;
+}
+
+.action-container button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 128px;
 }
 
 .footer {
+    display: flex;
     margin-top: auto;
+    justify-content: center;
+    align-items: center;
 }
